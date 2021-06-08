@@ -54,7 +54,7 @@ app.get('/user/:userId/personal-details', (req, res) => {
 });
 
 app.get('/list', (req, res) => {
-    res.send(assetList);
+    res.send(assetList.list);
 });
 
 app.post('/', (req, res) => {
