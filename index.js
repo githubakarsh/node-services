@@ -3,7 +3,7 @@
 
 const express = require('express');
 const app = express();
-const port = process.env.port || 3010;
+const port = process.env.PORT || 3000;
 
 const users = ['12345', '54321', '678910']
 
