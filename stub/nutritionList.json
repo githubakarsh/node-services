@@ -1,0 +1,54 @@
+{
+    "nutrition" : 
+       {
+           "singleUnits" : [
+            {
+                "name" : "banana",
+                "quantity" : 1,
+                "img" : "../images/banana.jpeg",
+                "description" : "description about banana",
+                "details" : [
+                    {
+                        "size" : "small",
+                        "calories" : 90,
+                        "fat" : "",
+                        "iron" : "",
+                        "protein" : "",
+                        "carbs" : "" 
+                    },
+                    {
+                        "size" : "medium",
+                        "calories" : 105,
+                        "fat" : "",
+                        "iron" : "", 
+                        "protein" : "",
+                        "carbs" : ""
+                    },
+                    {
+                        "size" : "large",
+                        "calories" : 121,
+                        "fat" : "",
+                        "iron" : "",
+                        "protein" : "",
+                        "carbs" : "" 
+                    }
+                ]
+            },
+            {
+                "name" : "egg boiled",
+                "description" : "description about egg",
+                "quantity" : 1,
+                "grams" : 100,
+                "details" : [
+                    {
+                        "calories" : 155,
+                        "fat" : 11,
+                        "protein": 13,
+                        "carbs" : 1.1
+                    }
+                ]
+                
+            }
+        ]
+       }
+}

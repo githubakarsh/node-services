@@ -8,6 +8,7 @@ const port = process.env.PORT || 3000;
 const users = ['12345', '54321', '678910']
 
 const assetList = require('./stub/assets.json');
+const nutritionList = require('./stub/nutritionList.json');
 
 const userData = [
     {
@@ -56,6 +57,10 @@ app.get('/user/:userId/personal-details', (req, res) => {
 app.get('/list', (req, res) => {
     res.send(assetList.list);
 });
+
+app.get('/nutrition', (req, res) => {
+    res.send(nutritionList);
+})
 
 app.post('/', (req, res) => {
     res.send('Post service requested');
